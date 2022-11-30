@@ -134,7 +134,7 @@ button {
 .address {
   display: flex;
   margin-left: auto;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   /* min-width: 360px; */
 }
 
@@ -563,6 +563,11 @@ button {
 
 .social__link{
   background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-conteiner{
+  display: flex;
+  margin-left: auto;
 }
 
 .footer-form{

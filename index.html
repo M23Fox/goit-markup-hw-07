@@ -380,13 +380,13 @@
             </ul>
         </div>
         <form class="footer-form">
-            <p class="footer-form-title social-title">Підпишіться на розсилку</p>
+            <p class="footer-form__title">підпишіться на розсилку</p>
             <label>
-                <input type="email" name="mail" placeholder="E-mail" class="subscr">
+                <input type="email" name="mail" placeholder="E-mail" class="footer-form__subscr">
             </label>
         </form>
-        <button type="submit" class="subscr-button">
-            <span class="button-span">Підписатися</span>
+        <button type="submit" class="footer-form__button">
+            <span class="footer-form__text">Підписатися</span>
             <svg width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
             </svg>
@@ -395,44 +395,44 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <div class="modal-button" data-modal-close>
-                <svg class="modal-icon" width="18" height="18">
+            <div class="modal__button" data-modal-close>
+                <svg class="modal__icon" width="18" height="18">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </div>
-            <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+            <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
             <Form class="form">
-                <label for="name" class="form-label">Ім'я</label>
-                <div class="input-conteiner">
-                    <input type="text" name="user-name" id="name" class="modal-input" required>
-                    <svg width="18" height="18" class="form-icon">
+                <label for="name" class="form__label">Ім'я</label>
+                <div class="form__conteiner">
+                    <input type="text" name="user-name" id="name" class="form__input" required>
+                    <svg width="18" height="18" class="form__icon">
                         <use href="./images/icons.svg#icon-person"></use>
                     </svg>
                 </div>
-                <label for="phone" class="form-label">Телефон</label>
-                <div class="input-conteiner">
-                    <input type="tel" name="user-tell" id="phone" class="modal-input" required>
-                    <svg width="18" height="18" class="form-icon">
+                <label for="phone" class="form__label">Телефон</label>
+                <div class="form__conteiner">
+                    <input type="tel" name="user-tell" id="phone" class="form__input" required>
+                    <svg width="18" height="18" class="form__icon">
                         <use href="./images/icons.svg#icon-phone"></use>
                     </svg>    
                 </div>
-                <label for="mail" class="form-label">Пошта</label>
-                <div class="input-conteiner">
-                    <input type="email" name="user-mail" id="mail" class="modal-input" required>
-                    <svg width="18" height="18" class="form-icon">
+                <label for="mail" class="form__label">Пошта</label>
+                <div class="form__conteiner">
+                    <input type="email" name="user-mail" id="mail" class="form__input" required>
+                    <svg width="18" height="18" class="form__icon">
                         <use href="./images/icons.svg#icon-email"></use>
                     </svg>    
                 </div>
-                <label for="text" class="form-label">Коментар</label>
-                <textarea name="feedback" id="text" class="modal-input textarea" placeholder="Введіть текст"></textarea>
-                <div class="checkbox-conteiner">
-                    <label for="checkbox-contract" class="checkbox-label">
-                        <input type="checkbox" class="checkbox" id="checkbox-contract" name="contract" value="agree" required>
-                        <span class="icon-check"></span> Погоджуюся з розсилкою та приймаю
+                <label for="text" class="form__label">Коментар</label>
+                <textarea name="feedback" id="text" class="form__input textarea" placeholder="Введіть текст"></textarea>
+                <div class="checkbox">
+                    <label for="checkbox__circs" class="checkbox__label">
+                        <input type="checkbox" class="checkbox__input" id="checkbox__circs" name="contract" value="agree" required>
+                        <span class="checkbox__icon"></span> Погоджуюся з розсилкою та приймаю
                     </label>
-                    <a href="" class="contract-link">Умови договору</a>
+                    <a href="" class="checkbox__link">Умови договору</a>
                 </div>
-                <button type="submit" class="form-button">Відправити</button>
+                <button type="submit" class="form__button">Відправити</button>
             </Form>
         </div>
     </div>
